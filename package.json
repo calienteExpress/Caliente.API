@@ -1,7 +1,7 @@
 {
-  "name": "calliente-api",
+  "name": "caliente-api",
   "version": "1.0.0",
-  "description": "REST API for Calliente Express",
+  "description": "REST API for Caliente Express",
   "main": "src/server.js",
   "scripts": {
     "pretest": "npm install",
@@ -9,17 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/calienteExpress/Calliente.API.git"
+    "url": "git+https://github.com/calienteExpress/Caliente.API.git"
   },
   "author": "pufferbly",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/calienteExpress/Calliente.API/issues"
+    "url": "https://github.com/calienteExpress/Caliente.API/issues"
   },
-  "homepage": "https://github.com/calienteExpress/Calliente.API#readme",
+  "homepage": "https://github.com/calienteExpress/Caliente.API#readme",
   "dependencies": {
     "config": "^1.19.0",
     "hapi": "^13.0.0",
+    "joi": "^7.3.0",
     "ramda": "^0.19.1"
   },
   "devDependencies": {
