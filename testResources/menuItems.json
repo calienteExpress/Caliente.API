@@ -1,0 +1,13 @@
+[{
+  "id" : 12345,
+  "name" : "Cappucino",
+  "options" : [
+    {"description" : "Iced", "priceOffset" : 0.50},
+    {"description" : "Extra Shot", "priceOffset" : 0.75}],
+  "price" : 3.50
+},
+{
+  "id" : 54321,
+  "name" : "Mint Tea",
+  "price" : 2.75
+}]
