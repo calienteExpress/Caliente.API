@@ -1,2 +1,2 @@
-# Calliente.API
-REST API for Calliente Express 
+# Caliente.API
+REST API for Caliente Express
