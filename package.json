@@ -4,12 +4,11 @@
   "description": "REST API for Caliente Express",
   "main": "src/server.js",
   "scripts": {
-    "ensure" : "npm install",
+    "ensure": "npm install",
     "pretest": "npm run ensure",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prestart" : "npm run ensure",
-    "start" : "node src/server.js"
-
+    "prestart": "npm run ensure",
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +23,7 @@
   "dependencies": {
     "config": "^1.19.0",
     "hapi": "^13.0.0",
+    "hapi-swagger": "^4.2.0",
     "inert": "^3.2.0",
     "joi": "^7.3.0",
     "ramda": "^0.19.1",
