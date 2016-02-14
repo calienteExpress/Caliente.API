@@ -4,8 +4,12 @@
   "description": "REST API for Caliente Express",
   "main": "src/server.js",
   "scripts": {
-    "pretest": "npm install",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ensure" : "npm install",
+    "pretest": "npm run ensure",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart" : "npm run ensure",
+    "start" : "node src/server.js"
+
   },
   "repository": {
     "type": "git",
