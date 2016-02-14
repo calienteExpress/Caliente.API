@@ -6,7 +6,7 @@ const Vision = require('vision');
 
 const server = new Hapi.Server();
 
-server.connection({host: '0.0.0.0', port : 9001});
+server.connection({port : process.env.PORT || 9001});
 server.route(routes.routes);
 
 var swaggerOptions = {
