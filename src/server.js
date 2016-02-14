@@ -6,19 +6,9 @@ const Vision = require('vision');
 
 const server = new Hapi.Server();
 
-server.connection({port : 9001});
+server.connection({host: '0.0.0.0', port : 9001});
 server.route(routes.routes);
 
-// server.start(() => {
-//   console.log('Server running at: ', server.info.uri);
-// })
-// server.route({
-//     method: 'GET',
-//     path: '/',
-//     handler: function (request, reply) {
-//         reply('Hello, world!');
-//     }
-// });
 var swaggerOptions = {
   info: {
     title : 'Caliente API',
